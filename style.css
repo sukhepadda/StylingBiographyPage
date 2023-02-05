@@ -9,27 +9,61 @@ body, html{
     color: white;
     height: 100%;
     width: 100%;
-    
-}
-.container{
     background: rgb(62,62,71);
     background: linear-gradient(161deg, rgba(62,62,71,1) 30%, rgba(181,3,3,1) 74%);
+}
+
+.container{
     height: 100%;
     width: 100%;
+    margin: 10px;
 }
 h1{
     color: blueviolet;
+    border-bottom: 10px dotted purple;
+    font-size: 52px;
+    margin: 20px 0;
+
+}
+h2{
+    color: rgb(221, 144, 144);
+}
+p{
+    font-size: 22px;
+    margin: 20px 0;
+
+}
+p>a{
+    color: black;
+    text-decoration: none;
+}
+h2:nth-child(4){
+    color: blueviolet;
+}
+ul{
+    border: 2px white solid;
+    padding: 20px;
+    margin: 20px;
+}
+li{
+    font-size: 18px;
+    margin: 0 20px;
+}
+li > a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 footer{
     bottom: 0;
     position: fixed;
-    background-color: aqua;
+    background-color: blueviolet;
     width: 100%;
     text-align: center;
-    color: white;
+    color: rgb(110, 69, 69);
 }
 footer > h2 > a{
     text-decoration: none;
-    color: blue;
+    color: rgb(3, 3, 58);
 }
