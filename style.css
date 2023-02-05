@@ -1,0 +1,35 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body, html{
+    color: white;
+    height: 100%;
+    width: 100%;
+    
+}
+.container{
+    background: rgb(62,62,71);
+    background: linear-gradient(161deg, rgba(62,62,71,1) 30%, rgba(181,3,3,1) 74%);
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: blueviolet;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+footer > h2 > a{
+    text-decoration: none;
+    color: blue;
+}
